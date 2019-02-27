@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.Main2Activity">
+
+    <TextView
+        android:id="@+id/game_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Question"
+        android:textSize="25dp"
+        />
+    <Button
+        android:id="@+id/first_choice_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="option 1"
+        android:textColor="#000066"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:background="#F8F8FF"
+        />
+
+    <Button
+        android:id="@+id/third_choice_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="option 2"
+        android:textColor="#000066"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:background="#F8F8FF"/>
+
+    <Button
+        android:id="@+id/second_choice_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#F8F8FF"
+        android:padding="10dp"
+        android:text="option 3"
+        android:textColor="#000066"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/fourth_choice_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="option 4"
+        android:textColor="#000066"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:background="#F8F8FF"/>
+
+</LinearLayout>
